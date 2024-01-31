@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #202021;
+}
+@font-face {
+    font-family: "creepy";
+    src: url(DK\ Face\ Your\ Fears.ttf);
+}
+.topbar{
+    background-color: black;
+    height: 100px;
+}
+.menu{
+    background-color: rgb(161, 17, 17);
+    text-align: center;
+    padding: 5px;
+}
+.bottoum{
+    text-decoration: none;
+    font-style: italic;
+    font-size: 30px;
+    color: white;
+    padding: 15px;
+    font-family: 'creepy';
+}
+.logo{
+    width: 300px;
+    float: right;
+}
+.img-logo{
+    width: 100px;
+}
+.header{
+    background-image: url('./header.jpg');
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+    background-color: #eeeeee79;
+    margin-top: 50px;
+    border: 6px solid rgb(107, 4, 4);
+    border-radius: 10px;
+}
+.headline{
+    font-size: 60px;
+    font-family: 'creepy';
+    color: rgb(110, 13, 13);
+    text-align: center;
+    border: px solid ;
+    background-color: black;
+}
+.content{
+    margin-top: 20px;
+}
+p{
+    text-indent: 30px;
+    padding: 20px 20px 5px 20px;
+    font-size: 24px;
+    text-align: justify;
+    font-family: monospace;
+    text-transform: capitalize;
+    font-style: italic;
+    line-height: 28px;
+    color: rgb(107, 4, 4);
+
+}
+.poster{
+    float: right;
+}
+.posterfig{
+    width: 350px;
+    padding: 15px;
+}
+.figures{
+    text-align: center;
+    padding: 10px;
+}
+.figure{
+    width: 600px;
+    border-radius: 10px;
+    
+}
+footer{
+    background-color: black;
+    height: 100px;
+    margin-top: 20px;
+}
